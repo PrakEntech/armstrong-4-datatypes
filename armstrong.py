@@ -1,8 +1,6 @@
 def arm_num(numstr):
     if 'int' in str(type(numstr)):
         numstr = str(numstr)
-    if 'str' in str(type(numstr)):
-        pass
     if 'list' in str(type(numstr)) or 'tuple' in str(type(numstr)):
         a=''
         for i in range(len(numstr)):
